@@ -96,7 +96,7 @@ function ContactCard({ card, index }) {
 
 export default function ContactCards() {
   return (
-    <div className="container mx-auto px-4 relative z-10 translate-y-0 md:-translate-y-[40%]">
+    <div className="container mx-auto px-4 relative z-10 translate-y-10 md:-translate-y-[40%]">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {cards.map((card, i) => (
           <ContactCard key={i} card={card} index={i} />

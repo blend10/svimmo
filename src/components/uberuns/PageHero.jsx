@@ -17,7 +17,7 @@ export default function PageHero({ title, image }) {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-700/80 via-blue-400/30 to-white/10" />
 
         {/* Title */}
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center px-5 md:px-0">
           <h1 className="text-white text-5xl font-semibold tracking-widest uppercase">
             {title}
           </h1>

@@ -75,7 +75,7 @@ export default function Suchauftrag() {
                 <div className="group-hover:scale-110 transition-transform duration-200 w-[50px] h-[50px] md:w-[70px] md:h-[70px] relative flex items-center justify-center">
                   {cat.icon}
                 </div>
-                <p className="text-xs md:text-sm font-semibold text-center text-gray-800">
+                <p className="text-[10px] md:text-sm font-semibold text-center text-gray-800">
                   {cat.label}
                 </p>
               </div>
