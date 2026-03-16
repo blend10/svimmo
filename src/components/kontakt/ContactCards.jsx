@@ -7,8 +7,8 @@ const cards = [
   {
     icon: <FaPhone size={22} className="text-white" />,
     title: "Telefonnummer",
-    lines: ["+383 44 222 24 52"],
-    link: "tel:+38344222452",
+    lines: ["+41447842272"],
+    link: "tel:+41447842272",
     linkText: "Rufen Sie uns an",
   },
   {
@@ -21,8 +21,8 @@ const cards = [
   {
     icon: <FaMapMarkerAlt size={22} className="text-white" />,
     title: "Adresse",
-    lines: ["Säntisweg 4", "8832 Willen bei Wallerau"],
-    link: "https://www.google.com/maps/place/E-K+Bauunternehmung+GmbH/@47.1927261,8.7270816,17z",
+    lines: ["Churerstrasse 160 B", "8808 Pffäfikon SZ"],
+    link: "https://www.google.com/maps/place/S%C3%A4ntisweg+4,+8832+Freienbach,+Switzerland/@47.1927126,8.7270939,741m/data=!3m2!1e3!4b1!4m6!3m5!1s0x479ab22a537b984b:0x8433b3f0d531a9ba!8m2!3d47.1927126!4d8.7270939!16s%2Fg%2F11c1wpn2c7?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
     linkText: "Route anzeigen",
   },
 ];

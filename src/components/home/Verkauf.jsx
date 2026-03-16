@@ -77,9 +77,9 @@ export default function Verkauf() {
           <div className="absolute bottom-0 left-[30%] md:left-52 bg-[#E0F0F2] rounded-md shadow-md p-4 w-fit flex flex-col items-start justify-center gap-2">
             <div className="w-10 h-10 rounded-full bg-blue-600" />
             <p className="text-xs text-gray-500">Immobilien zum Verkauf</p>
-            <p className="text-2xl font-bold text-gray-800">
+            {/* <p className="text-2xl font-bold text-gray-800">
               {formatCount(count)}
-            </p>
+            </p> */}
           </div>
         </div>
 

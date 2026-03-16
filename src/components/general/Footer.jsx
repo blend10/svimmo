@@ -99,10 +99,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="tel:+38344222452"
+                    href="tel:+41447842272"
                     className="text-gray-500 text-sm hover:text-[#03529B] transition-colors duration-200"
                   >
-                    +383 44 222 24 52
+                    +41447842272
                   </a>
                 </li>
               </ul>
@@ -112,12 +112,14 @@ const Footer = () => {
               <h3 className="font-semibold text-base mb-3 tracking-wide">
                 Adresse
               </h3>
-              <p className="text-gray-500 text-sm leading-relaxed">
-                SV IMMO AG
-                <br />
-                Säntisweg 4<br />
-                8832 Wilen bei Wollerau
-              </p>
+              <a href="https://www.google.com/maps/place/S%C3%A4ntisweg+4,+8832+Freienbach,+Switzerland/@47.1927126,8.7270939,741m/data=!3m2!1e3!4b1!4m6!3m5!1s0x479ab22a537b984b:0x8433b3f0d531a9ba!8m2!3d47.1927126!4d8.7270939!16s%2Fg%2F11c1wpn2c7?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D">
+                <p className="text-gray-500 text-sm leading-relaxed hover:text-[#03529B] transition-colors duration-200">
+                  SV IMMO AG
+                  <br />
+                  Churerstrasse 160 B <br />
+                  8808 Pffäfikon SZ
+                </p>
+              </a>
             </div>
           </div>
         </div>
@@ -127,10 +129,23 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-400 text-xs">
-          <p>
-            © {new Date().getFullYear()} SV IMMO AG. Alle Rechte vorbehalten.
-          </p>
-          <div className="flex gap-6">
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+            <p>
+              © {new Date().getFullYear()} SV IMMO AG. Alle Rechte vorbehalten.
+            </p>
+            <p className="flex items-center gap-1">
+              Made with <span className="text-red-500 text-sm">❤️</span> by{" "}
+              <a
+                href="https://syn-tech.ch/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#03529B] font-medium transition-colors"
+              >
+                Syntech Solution AG
+              </a>
+            </p>
+          </div>
+          {/* <div className="flex gap-6">
             <Link
               href="/kontakt"
               className="hover:text-[#03529B] transition-colors duration-200"
@@ -143,7 +158,7 @@ const Footer = () => {
             >
               Datenschutz
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

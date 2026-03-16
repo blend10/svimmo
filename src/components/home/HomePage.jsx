@@ -103,7 +103,7 @@ export default function HomePage() {
           </div>
 
           {/* Floating Agents Badge */}
-          <div className="absolute -bottom-15 right-4 bg-white rounded-2xl shadow-lg px-4 py-3 flex flex-col items-center gap-3">
+          {/* <div className="absolute -bottom-15 right-4 bg-white rounded-2xl shadow-lg px-4 py-3 flex flex-col items-center gap-3">
             <div className="flex flex-row items-center justify-between">
               {avatars.map((avatar, i) => (
                 <Image
@@ -120,7 +120,7 @@ export default function HomePage() {
               <p className="text-sm font-bold text-gray-800">1000K+</p>
               <p className="text-xs text-gray-400">Exclusive Agents</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

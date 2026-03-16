@@ -38,7 +38,7 @@ function useCountUp(target, duration = 2000, externalRef = null) {
 
 const reviews = [
   {
-    name: "Jan Muster",
+    name: "Bernard Koch",
     role: "Marketing",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     text: "„Die Zusammenarbeit war hervorragend! Schnelle Kommunikation, professionelle Umsetzung und ein Ergebnis, das unsere Erwartungen übertroffen hat. Absolut empfehlenswert!“",
@@ -77,13 +77,13 @@ export default function Testimonials() {
 
   // Desktop refs
   const statsRef = useRef(null);
-  const customers = useCountUp(10, 2000, statsRef);
-  const rating = useCountUp(4.5, 1500, statsRef);
+  const customers = useCountUp(200, 2000, statsRef);
+  const rating = useCountUp(5.0, 1500, statsRef);
 
   // Mobile refs (separate so IntersectionObserver fires on visible element)
   const mobileStatsRef = useRef(null);
-  const customersM = useCountUp(10, 2000, mobileStatsRef);
-  const ratingM = useCountUp(4.5, 1500, mobileStatsRef);
+  const customersM = useCountUp(200, 2000, mobileStatsRef);
+  const ratingM = useCountUp(5.0, 1500, mobileStatsRef);
 
   const navigate = (dir) => {
     setDirection(dir);
@@ -216,7 +216,7 @@ export default function Testimonials() {
             >
               <div>
                 <p className="text-4xl font-bold">
-                  {Math.floor(customers.count)}K+
+                  {Math.floor(customers.count)}+
                 </p>
                 <p className="text-blue-200 text-sm mt-1">Zufriedene Kunden</p>
               </div>
