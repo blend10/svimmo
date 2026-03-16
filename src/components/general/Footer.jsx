@@ -43,7 +43,7 @@ const Footer = () => {
             </Link>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
               Ihr Partner für Immobilien An- und Verkauf. SV IMMO AG ist eine
-              schweizweit tätige Immobilienfirma mit Sitz in Wollerau SZ.
+              schweizweit tätige Immobilienfirma mit Sitz in Pfäffikon  SZ.
             </p>
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-2">
