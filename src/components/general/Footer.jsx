@@ -11,10 +11,18 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { href: "#", icon: Facebook, label: "Facebook" },
-  { href: "#", icon: Instagram, label: "Instagram" },
-  { href: "#", icon: Twitter, label: "Twitter/X" },
-  { href: "#", icon: Linkedin, label: "LinkedIn" },
+  // { href: "#", icon: Facebook, label: "Facebook" },
+  {
+    href: "https://www.instagram.com/svimmoag/",
+    icon: Instagram,
+    label: "Instagram",
+  },
+  // { href: "#", icon: Twitter, label: "Twitter/X" },
+  {
+    href: "https://www.linkedin.com/company/sv-immo-ag/about/",
+    icon: Linkedin,
+    label: "LinkedIn",
+  },
 ];
 
 const Footer = () => {
