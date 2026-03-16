@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/general/Footer";
 
 export const metadata = {
-  title: "SV Immo AG",
+  title: "Sv Immo AG",
   description: "",
   icons: {
     icon: "/images/logo.svg",
