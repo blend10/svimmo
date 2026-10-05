@@ -7,8 +7,8 @@ const cards = [
   {
     icon: <FaPhone size={22} className="text-white" />,
     title: "Telefonnummer",
-    lines: ["+41447842272"],
-    link: "tel:+41447842272",
+    lines: ["+41 44 687 10 08"],
+    link: "tel:+41 44 687 10 08",
     linkText: "Rufen Sie uns an",
   },
   {
